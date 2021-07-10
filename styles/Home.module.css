@@ -108,12 +108,27 @@
   bottom: 0;
   background: rgb(41,3,246);
   background: linear-gradient(180deg, rgb(4, 75, 182) 0%, rgb(132, 241, 245) 100%);
-  height: 130px;
+  height: 90px;
   width: 100%;
   z-index: -5;
   display: none;
+  animation-duration: 5s;
+  animation-name: sea;
+  animation-iteration-count: infinite;
 }
 
+@keyframes sea {
+  from {
+    height: 90px;
+  }
+
+  to {
+    height: 90px;
+  }
+  50% {
+    height: 93px;
+  }
+}
 .footer {
   width: auto;
   height: auto;
